@@ -10,7 +10,9 @@ The agent is designed to autonomously gather and analyze data to make accurate r
 A baseline implementation using:
 - A CatBoost classifier , trained on labeled training data.
 - A local LLM via Ollama , used as a zero-shot judge of relevance on validation data using prompt engineering (no fine-tuning).
+- 
 2. Agent.ipynb
+  
 An advanced agent built using LangGraph that:
 
 - Uses a local LLM via Ollama .
