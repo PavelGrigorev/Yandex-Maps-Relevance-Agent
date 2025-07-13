@@ -24,6 +24,11 @@ To explore how LLMs can be enhanced with tools like web search to improve their 
 
 ## 🔧 Requirements
 
+![Python 3.12.4](https://img.shields.io/badge/python-3.12.4-blue.svg?logo=python&style=flat-square)
+![LangGraph]( https://img.shields.io/badge/LangGraph-LLM-blueviolet.svg?logo=&style=flat-square)
+![DeepSeek-r1]( https://img.shields.io/badge/DeepSeek--r1-LLM-333333.svg?logo=&style=flat-square)
+![Ollama]( https://img.shields.io/badge/Ollama-LLM-FF5C00.svg?logo=ollama&style=flat-square)
+
 Make sure you have the following installed:
 
 Python 3.x
