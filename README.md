@@ -5,13 +5,13 @@ The agent is designed to autonomously gather and analyze data to make accurate r
 
 ## 📁 Repository Structure
 
-1. BASE.ipynb
+### 1. BASE.ipynb
 
 A baseline implementation using:
 - A CatBoost classifier , trained on labeled training data.
 - A local LLM via Ollama , used as a zero-shot judge of relevance on validation data using prompt engineering (no fine-tuning).
-- 
-2. Agent.ipynb
+ 
+### 2. Agent.ipynb
   
 An advanced agent built using LangGraph that:
 
@@ -44,7 +44,7 @@ Download and install Ollama from Ollama.com.
 
 Pull a suitable model via Ollama (e.g., llama3, mistral, etc.):
 ```bash
-ollama pull llama3
+ollama pull deepseek-r1
 ```
 
 Run the notebooks:
@@ -57,7 +57,7 @@ Start with BASE.ipynb for baselines, then proceed to Agent.ipynb for the full ag
 The dataset consists of annotated examples of query-organization pairs labeled for relevance. It is split into train/test sets and is assumed to be located in a data/ directory.
 
 ## 🤝 Acknowledgments
-We thank **Yandex** and **DeepLearningSchool** for providing the dataset and supporting this research.
+We thank **Yandex** and **DeepLearningSchool** for providing the [dataset](https://disk.yandex.ru/d/6d5hFHvpAZjQdw) and supporting this research.
 
 ## 🛠️ Future Work
 Fine-tune LLMs on domain-specific data.
